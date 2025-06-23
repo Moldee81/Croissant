@@ -1,0 +1,32 @@
+body {
+  min-height: 100vh;
+  background: linear-gradient(
+    0deg,
+    rgba(59, 252, 255, 1) 25%,
+    rgba(253, 187, 45, 1) 92%
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.navigation-links {
+  text-align: center;
+  display: flex;
+  font-size: 22px;
+  justify-content: space-around;
+}
+h1 {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-size: 36px;
+}
+h1,
+p {
+  text-align: center;
+}
+p {
+  line-height: 2;
+  font-size: 24px;
+}
+a {
+  color: blueviolet;
+}
